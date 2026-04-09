@@ -1,3 +1,4 @@
+package java;
 class robot2 {
 
     private final int w, h;
@@ -5,7 +6,7 @@ class robot2 {
     private int dist;
     private boolean moved;
 
-    public Robot(int width, int height) {
+    public robot2(int width, int height) {
         w = width;
         h = height;
         cycle = 2 * (w + h) - 4;
